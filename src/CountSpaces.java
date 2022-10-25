@@ -1,5 +1,4 @@
 public class CountSpaces {
-
 	/**
 	 * @param args
 	 */
@@ -15,9 +14,7 @@ public class CountSpaces {
 				count++;
 
 			}
-
 		}
 		System.out.println("space count is " + count);
 	}
-
 }

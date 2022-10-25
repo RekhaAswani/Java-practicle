@@ -11,5 +11,9 @@ public class Concat
 		String s3;
 		s3= s1.concat(s2);
 		System.out.println(s3);
+		
+		String city= "Bangalore";
+		
+		System.out.println("Sub string is :" +city.substring(5,8));
 	}
 }

@@ -8,7 +8,7 @@ public abstract class Testarray {
 		// TODO Auto-generated method stub
 
 		int arr[]=new int[5];
-		System.out.println(arr);
+		System.out.println(arr);  // It will print garbage value;
 	}
 
 }

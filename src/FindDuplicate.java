@@ -4,14 +4,12 @@ import java.util.Set;
 
 public class FindDuplicate {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		//find duplicate characters
+		// find duplicate characters
 		String str = "krishna sakinala";
 		// String str = "java";
 		char[] chars = str.toCharArray();
 		// System.out.println(chars);
-		Map<Character, Integer> charmap = new HashMap<Character, Integer>(); // creating//
-																				// a
+		Map<Character, Integer> charmap = new HashMap<Character, Integer>(); // creating//																		// a
 		// hash
 		// map
 		// logic--->character are inserted as key and count inserted as values
